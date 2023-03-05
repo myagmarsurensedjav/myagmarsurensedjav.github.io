@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Jigsaw',
-    'description' => 'Website description.',
+    'title' => 'Myagmarsuren Sedjav',
+    'description' => 'Full-Stack Engineer, who loves Laravel and cloud systems.',
     'collections' => [],
 ];
