@@ -27,11 +27,11 @@
                 <h2 class="text-4xl font-semibold mb-6 text-black">Амар мэнд үү?</h2>
 
                 <p class="mb-4">
-                    Намайг <strong>С.Мягмарсүрэн</strong> гэдэг, би програм хангамжийн инженер мэргэжилтэй. Миний ажилласан <a class="text-blue-700" href="https://www.mplus.mn/">Mplus</a>, <a class="text-blue-700" href="https://www.wplus.world">World Plus</a>, <a class="text-blue-700" href="https://www.mmusic.mn/">MMusic</a> гэх мэт зарим нэг төслүүдийг та мэдэж магадгүй юм.
+                    Намайг <strong>С.Мягмарсүрэн</strong> гэдэг, би программ хангамжийн инженер мэргэжилтэй. Миний ажилласан <a class="text-blue-700" href="https://www.mplus.mn/">Mplus</a>, <a class="text-blue-700" href="https://www.wplus.world">World Plus</a>, <a class="text-blue-700" href="https://www.mmusic.mn/">MMusic</a> гэх мэт зарим нэг төслүүдийг та мэдэж магадгүй юм.
                 </p>
 
                 <p class="mb-4">
-                    Би ихэвчлэн програмын бакэнд хэсгийг ахлан ажилладаг үүнийхээ хүрээнд TDD аргачилалаар Rest API болон Admin panel хөгжүүлдэг.
+                    Би ихэвчлэн программын бакэнд хэсгийг ахлан ажилладаг үүнийхээ хүрээнд TDD аргачлалаар Rest API болон Admin panel хөгжүүлдэг.
                 </p>
 
                 <p class="mb-4">Cloud system дээр дэд бүтэц үүсгэх, CI/CD автоматжуулалт, Containerized аппликэйшн бүтээх болон түүнд хамрагддаг DevOps технологиудыг ашиглах зэргээр ажиллаж байсан.</p>
