@@ -1,0 +1,36 @@
+name: Deploy Jigsaw Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Install PHP and dependencies
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.1"
+          extensions: mbstring, zip, exif
+          ini-values: memory_limit=512M
+
+      - name: Install Composer dependencies
+        run: composer install --no-dev --prefer-dist --optimize-autoloader
+
+      - name: Build static site
+        run: ./vendor/bin/jigsaw build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_dir: ./build_production
+          cname: myagmarsurensedjav.github.io
+          commit_message: Deploy Jigsaw site to GitHub Pages
